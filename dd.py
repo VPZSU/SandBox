@@ -32,9 +32,9 @@ class SingleTone(object):
         SingleTone.__instance.val = val
         return SingleTone.__instance
     
-a = SingleTone('zzz')
+a = SingleTone('a')
 print(a)
-b = SingleTone('zzz')
+b = SingleTone('b')
 print(b)
 print(a == b)
 
